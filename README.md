@@ -43,11 +43,17 @@ The model predicts whether a customer will churn (1) or stay (0).
 
 📊 Data Requirements
 The solution uses structured data such as:
-    Usage patterns
-    Billing history
-    Support ticket logs
-    Customer demographics
-    Tenure and contract type
+    
+    Usage patterns,
+    
+    Billing history,
+    
+    Support ticket logs,
+   
+    Customer demographics,
+    
+    Tenure and contract type.
+
 Target variable: churn_flag
 
 🧩 Model Recommendation
