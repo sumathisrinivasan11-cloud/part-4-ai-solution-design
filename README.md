@@ -19,13 +19,13 @@ Telecom – Customer Churn Prediction
 This domain was selected based on its strong business impact and availability of structured data suitable for neural network models.
 
 📄 Repository Structure
-Code
 part-4-ai-solution-design/
 │
 ├── README.md                 # Overview of the project (this file)
 ├── solution_report.md        # Detailed AI solution design report
 └── diagrams/
     └── solution_architecture.png   # Architecture diagram for the AI solution
+
 
 🧠 Problem Summary
 Telecom companies face high customer churn due to competition and service dissatisfaction.
@@ -38,34 +38,34 @@ Reduce revenue loss
 Provide early warning signals to business teams
 
 🔍 AI Task Type
-Classification  
+Classification: 
 The model predicts whether a customer will churn (1) or stay (0).
 
 📊 Data Requirements
 The solution uses structured data such as:
-Usage patterns
-Billing history
-Support ticket logs
-Customer demographics
-Tenure and contract type
+    Usage patterns
+    Billing history
+    Support ticket logs
+    Customer demographics
+    Tenure and contract type
 Target variable: churn_flag
 
 🧩 Model Recommendation
 A Feed-forward Neural Network (FFNN) is recommended due to:
-Strong performance on structured data
-Ability to capture nonlinear relationships
-Scalability for large telecom datasets
+    Strong performance on structured data
+    Ability to capture nonlinear relationships
+    Scalability for large telecom datasets
 
 📈 Evaluation Metrics
-Technical Metrics
-AUC
-Recall (for churn class)
-Precision
-F1-score
-Business Metrics
-Retention uplift
-Cost savings
-Campaign efficiency
+1. Technical Metrics
+    AUC
+    Recall (for churn class)
+    Precision
+    F1-score
+2. Business Metrics
+    Retention uplift
+    Cost savings
+    Campaign efficiency
 
 🛡️ Responsible AI Considerations
 Bias detection and fairness checks
@@ -75,21 +75,21 @@ Monitoring for model drift
 Transparent communication of predictions
 
 🧾 Files Included
-solution_report.md
+1. solution_report.md
 Contains:
-Full problem definition
-Data plan
-Model architecture
-Evaluation strategy
-Responsible AI risks
-Final one-page summary
-solution_architecture.png
+    Full problem definition
+    Data plan
+    Model architecture
+    Evaluation strategy
+    Responsible AI risks
+    Final one-page summary
+2. solution_architecture.png
 A diagram showing:
-Data sources
-Preprocessing pipeline
-Model training
-Prediction service
-Human review loop
+    Data sources
+    Preprocessing pipeline
+    Model training
+    Prediction service
+    Human review loop
 
 🚀 How to Use This Repository
 Read the solution_report.md for the complete design.
