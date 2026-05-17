@@ -33,6 +33,7 @@ This domain was selected based on its strong business impact and availability of
 📄 Repository Structure
 
 part-4-ai-solution-design/
+
 │
 ├── README.md                 # Overview of the project (this file)
                 
